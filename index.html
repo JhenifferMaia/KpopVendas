@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet"  href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kpop Vendas</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">KPOP VENDAS</a>
+          <style>
+              .navbar-brand{
+                  color:rgb( 34, 139,34);
+              }
+
+              .navbar-brand:hover{
+                  color: rgb( 34, 139,34);
+                  background-color: rgb(186, 221, 186);
+              }
+          </style>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html" >Home</a>
+            </li>
+                <style>
+                    .nav-link{
+                        color: rgb( 34, 139,34);
+                        text-decoration: none;
+                    }
+                    
+                </style>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="carrinho.html">Carrinho de Compras</a>
+                <style>
+                    .nav-link {
+                        color: rgb( 34, 139,34);
+                    }
+                </style>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    <div class="row">
+
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tênis Air Jordan 9 Retro City of Flight</h5>
+              <h4 class="valor">R$ 1.200,00</h4>
+              <h4 class="valorantigo">R$2.500</h4>
+              
+              <p class="card-text">Costume de negrões e kpops.</p>
+              <h6>FRETE GRÁTIS</h6>
+              <h4 class="divisao">DIVIDIMOS EM ATÉ 12X</h4>
+
+              <a href="compra.html" class="btn btn-primary">COMPRAR</a>
+                <style>
+                    .card{
+                        margin: 1.2%;
+                        border: solid 4px rgb(217, 233, 217);
+                        left: 1.2%;
+                        
+                    }
+                    h4, .valor{
+                        color:rgb( 34, 139,34);
+
+                    }
+                    .valorantigo{
+                        color:rgb(145, 127, 127);
+                        margin-top: -15%;
+                        margin-left: 57%;
+                        font-size: 100%;
+                        text-decoration: line-through;
+                    }
+                    .divisao{
+                        color: rgb( 34, 139,34);
+                        font-size: 12px;
+                        margin-left: 40%;
+                        margin-top: -10%;
+                    }
+
+                    
+                    h6{
+                        color: rgb( 34, 139,34);
+                        margin-top: 5%;
+                        font-size:70%
+                    }
+
+                    .btn-primary{
+                        background-color:rgb( 34, 139,34);
+                    }
+
+                    .btn-primary:hover{
+                        background-color: rgb(0, 0, 0);
+                    }
+                </style>
+            </div>
+          </div>
+          
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.etiquetaunica.com.br/blog/wp-content/uploads/2021/06/tenis-parceria-lv-nike-290621.jpg" alt="Card image cap" >
+            <div class="card-body">
+                <h5 class="card-title">Air Jordan 1 Supreme x Louis Vuitton</h5>
+                <h4 class="valor">R$ 1.980,00</h4>
+                <h4 class="valorantigo">R$1.560</h4>
+                
+                <p class="card-text">Costume de negrões e kpops.</p>
+                <h6>FRETE GRÁTIS</h6>
+                <h4 class="divisao">DIVIDIMOS EM ATÉ 12X</h4>
+
+                <a href="compra.html" class="btn btn-primary">COMPRAR</a>
+            </div>
+        </div>
+          
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.sneakerfiles.com/wp-content/uploads/2021/07/supreme-x-nike-air-force-1-flax-2021-release.jpeg" alt="Card image cap" >
+            <div class="card-body">
+                <h5 class="card-title">Nike Air Max - supreme</h5>
+                <h4 class="valor">R$ 680,00</h4>
+                <h4 class="valorantigo">R$1.000</h4>
+                
+                <p class="card-text">Costume de negrões e kpops.</p>
+                <h6>FRETE GRÁTIS</h6>
+                <h4 class="divisao">DIVIDIMOS EM ATÉ 12X</h4>
+
+                <a href="compra.html" class="btn btn-primary">COMPRAR</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.sneakerfiles.com/wp-content/uploads/2021/07/supreme-x-nike-air-force-1-flax-2021-release.jpeg" alt="Card image cap" >
+            <div class="card-body">
+                <h5 class="card-title">Nike Air Max - supreme</h5>
+                <h4 class="valor">R$ 680,00</h4>
+                <h4 class="valorantigo">R$1.000</h4>
+                
+                <p class="card-text">Costume de negrões e kpops.</p>
+                <h6>FRETE GRÁTIS</h6>
+                <h4 class="divisao">DIVIDIMOS EM ATÉ 12X</h4>
+
+                <a href="compra.html" class="btn btn-primary">COMPRAR</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
